@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skrytá Pravda - Most zbořen!</title>
+    <title>Skrytá Pravda - Toronto pod dohledem!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,13 +19,31 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 100%;
+            width: 50%;
             max-width: 800px;
             border: 2px solid #c00;
         }
         .warning {
             color: red;
             font-weight: bold;
+        }
+        .articles {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .article {
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .article img {
+            width: 100%;
+            height: auto;
         }
         .footer {
             margin-top: 20px;
@@ -38,11 +56,30 @@
     <div class="container">
         <h1>⚠️ Co se děje s CN Tower? ⚠️</h1>
         <p class="warning">Podle nových fotografií se na slavné torontské věži objevilo děsivé oko! Co to znamená?</p>
-        <img src="tower.jpg" alt="CN Tower">
+        <img src="tower.jpg" alt="CN Tower s okem Saurona">
         <p>Objevily se spekulace, že jde o varování elit, nebo snad symbol tajné organizace ovládající svět? Někteří svědci tvrdí, že v noci věž skutečně září nadpřirozenou energií. Proč o tom média mlčí? Hledejte pravdu!</p>
     </div>
+    
+    <div class="articles">
+        <div class="article">
+            <img src="mystery-lights.jpg" alt="Záhadná světla">
+            <h3>Záhadná světla na obloze: Další důkaz manipulace?</h3>
+            <p>Nové svědecké výpovědi naznačují, že záhadná světla nad velkými městy nejsou jen náhodné jevy...</p>
+        </div>
+        <div class="article">
+            <img src="hidden-bases.jpg" alt="Tajná základna">
+            <h3>Tajné podzemní základny: Co se skrývá pod našimi městy?</h3>
+            <p>Existuje důkaz o rozsáhlých tunelech a podzemních komplexech, které zůstávají běžným lidem skryté?</p>
+        </div>
+        <div class="article">
+            <img src="moon-landing.jpg" alt="Přistání na Měsíci">
+            <h3>Bylo přistání na Měsíci zfalšované?</h3>
+            <p>Analýza původních snímků z mise Apollo přináší nové otázky o jejich pravosti...</p>
+        </div>
+    </div>
+    
     <div class="footer">
-        <p>&copy; 2025 Světlonoš News | Osvětlujeme to, co ostatní zatemňují!</p>
+        <p>&copy; 2025 Světlonoš | Osvětlujeme to, co ostatní tají!</p>
     </div>
 </body>
 </html>
